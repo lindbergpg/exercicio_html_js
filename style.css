@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_ {
+    background-color: rgb(0, 140, 255);
+    margin: auto;
+    width: 100%;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 440px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header_ header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 8px;
+    /*margin-left: 420px;*/
+    margin: auto;
+    max-width: 440px;
+    width: 100%;
+}
+
+.container header h3 {
+    color: rgb(100, 185, 255);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.container form input {
+    display: block;
+    padding: 6px;
+    margin-top: 8px;
+    width: 400px;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 8px;
+    outline: none;
+}
+
+.container form button {
+    padding: 6px;
+    margin-top: 8px;
+    width: 400px;
+    border: 1px solid rgb(0, 140, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 145, 145);
+    border-radius: 8px;
+}
+
+.container form button:hover {
+    background-color: rgb(4, 171, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.successmsg {
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 12px;
+    color: rgb(44, 197, 2);
+    display: none;
+}
+
+.errmsg {
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 12px;
+    color: rgb(197, 2, 2);
+    display: none;
+}
